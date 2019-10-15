@@ -1,0 +1,98 @@
+.topnav {
+    top: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+  }
+  
+  li{
+    display: inline;
+    font-family: arial,sans-serif;
+    font-size: 16px;
+    margin: 5px;
+  }
+  
+  li:hover {
+    text-decoration: underline;
+  }
+  
+  .leftnav{
+    float: left;
+  }
+  .rightnav{
+    float: right;
+  }
+  .botnav{
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    font-family: arial,sans-serif;
+    font-size: 10px;
+    border-style: none;
+    background-color: lightgrey;
+    width: 100%;
+  }
+  
+  
+  button.but1{
+      border-radius: 4px;
+      border-style: double;
+      border-width: thin;
+      font-size: 16px;
+      background-color: #f9f5f5;
+      margin: 10px;
+      padding: 5px;
+      display: inline-block;
+      margin-left: 43%;
+      margin-right: auto;
+      position: relative;
+      top: 200px;
+      right: 50px;
+  }
+  button.but2{
+      border-radius: 4px;
+      border-style: double;
+      border-width: thin;
+      font-size: 16px;
+      background-color: #f9f5f5;
+      margin: 10px;
+      padding: 5px;
+      display: inline-block;
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+      top: 200px;
+      left: 30px;
+  }
+  button:hover{
+    color: black;
+    box-shadow: 2px 2px 4px #000000;
+  }
+  
+  input{
+      width: 40%;
+      box-sizing: border-box;
+      border-radius: 50px;
+      border-style: double;
+      border-width: thin;
+      background-color: #f9f5f500;
+      margin: 20px;
+      padding: 10px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+      top: 200px;
+  }
+  input:hover{
+    box-shadow: 1px 1px 2px #000000;
+  }
+  
+  .google {
+    display: block;
+    margin-left: 42%;
+    margin-right: auto;
+    position:relative;
+    top: 200px;
+  }
